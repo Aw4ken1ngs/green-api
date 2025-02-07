@@ -1,0 +1,28 @@
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.message {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+.message-outgoing {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message-incoming {
+    background-color: #fff;
+    align-self: flex-start;
+    margin-right: auto;
+}
