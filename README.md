@@ -16,7 +16,7 @@
 1. Склонируйте репозиторий:
    Выполните команду: 
    ```bash
-   git clone https://github.com/ваш-username/ваш-репозиторий.git.
+    git clone https://github.com/Aw4ken1ngs/green-api.git
    ```
 2. Перейдите в папку проекта:
    Выполните команду:
