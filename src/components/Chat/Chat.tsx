@@ -25,7 +25,7 @@ const Chat: React.FC = () => {
 
   const handleSendMessage = async (text: string) => {
     await sendMessage(idInstance, apiTokenInstance, phone, text);
-    setMessages([...messages, { id: Date.now().toString(), text, isOutgoing: true }]); // isOutgoing: true для ваших сообщений
+    setMessages([...messages, { id: Date.now().toString(), text, isOutgoing: true }]);
   };
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const Chat: React.FC = () => {
               ...newMessages.map((msg) => ({
                 id: msg.id,
                 text: msg.text,
-                isOutgoing: false, // isOutgoing: false для входящих сообщений
+                isOutgoing: false,
               })),
             ]);
           }
